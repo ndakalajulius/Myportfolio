@@ -1,9 +1,12 @@
 import React from 'react'
+import "./HeroImgStyles.css"
 
 const HeroImg = () => {
   return (
-    <div>
+    <div className='hero'>
+      <div className='mask'>
       
+      </div>
     </div>
   )
 }
