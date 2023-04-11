@@ -11,8 +11,8 @@ function Forms() {
         <input type="email" />
         <label>Message:</label>
         <textarea rows="6" placeholder="Type your message here"></textarea>
+        <button className="btn1"> Submit </button>
       </form>
-      <button className="btn"> Submit </button>
     </div>
   );
 }
