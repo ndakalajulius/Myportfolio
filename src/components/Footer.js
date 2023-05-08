@@ -26,7 +26,7 @@ export const Footer = () => {
           <div className="email">
             <h4>
               {" "}
-              <FaMailBulk
+              <FaMailBulk 
                 size={20}
                 style={{ color: "white", marginRight: "2rem" }}
               />
@@ -40,10 +40,12 @@ export const Footer = () => {
         I’m fiercely competitive in my approach, up-to-date on all the latest
         trends.</p>
         <div className="social ">
-        <FaFacebook
+        <FaFacebook 
         size={30}
         style={{ color: "white", marginRight: "1rem" }}
+        
       />
+      <a href="https://www.mdbootstrap.com"></a>
       <FaTwitter
         size={30}
         style={{ color: "white", marginRight: "1rem" }}
