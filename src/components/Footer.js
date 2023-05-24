@@ -45,7 +45,7 @@ export const Footer = () => {
         style={{ color: "white", marginRight: "1rem" }}
         
       />
-      <a href="https://www.mdbootstrap.com"></a>
+     
       <FaTwitter
         size={30}
         style={{ color: "white", marginRight: "1rem" }}

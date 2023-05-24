@@ -5,9 +5,7 @@
 .project-container{
     max-width: 1140px;
     margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2 ,10fr);
-    grid-gap: 40px;
+    display: flex;
     margin-bottom: 5rem;
 }
 .project-card{
