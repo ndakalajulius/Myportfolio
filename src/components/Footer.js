@@ -25,7 +25,8 @@ export const Footer = () => {
             </p>
           </div>
           <div className="right">
-            <div className="social ">
+            <div className="social-container ">
+            <h1> Follow me </h1>
               <a
                 href="https://twitter.com/NdakalaWa"
                 className="twitter social"
