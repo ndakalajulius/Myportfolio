@@ -1,71 +1,65 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-
-function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
+import "./FooterStyles.css";
+import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from "react-icons/fa";
+export const Footer = () => {
   return (
-    <Container fluid className="footer">
-      <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
-        </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://github.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
-          </ul>
-        </Col>
-      </Row>
-    </Container>
-  );
-}
+    <div className="footer">
+      <div className="footer-container">
+        <div className="left">
+          <div className="location">
+            <FaHome size={20} style={{ color: "white", marginRight: "2rem" }} />
+            <div>
+              <p> Dhanjay Apartments, Nairobi</p>
+              <p> Kenya </p>
+            </div>
+          </div>
+          <div className="phone">
+            <h4>
+              {" "}
+              <FaPhone
+                size={20}
+                style={{ color: "white", marginRight: "2rem" }}
+              />
+              +254700308204
+            </h4>
+          </div>
+          <div className="email">
+            <h4>
+              {" "}
+              <FaMailBulk 
+                size={20}
+                style={{ color: "white", marginRight: "2rem" }}
+              />
+              juliusndakala35@gmail.com
+            </h4>
+          </div>
+        </div>
+        <div className="right"> 
+        <h4> About me </h4>
+        <p> I am a freelancer, I develop web applications.
+        I’m fiercely competitive in my approach, up-to-date on all the latest
+        trends.</p>
+        <div className="social ">
+        <FaFacebook 
+        size={30}
+        style={{ color: "white", marginRight: "1rem" }}
+        
+      />
+     
+      <FaTwitter
+        size={30}
+        style={{ color: "white", marginRight: "1rem" }}
+        
+      />
+      <FaLinkedin
+        size={30}
+        style={{ color: "white", marginRight: "1rem" }}
+        
+      />
 
-export default Footer;
+        </div>
+        </div>
+      </div>
+    </div>
+  );
+};
