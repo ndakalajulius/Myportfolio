@@ -1,6 +1,7 @@
 import pro1 from "../assets/project1.png";
 import pro2 from "../assets/project2.png";
 import pro3 from "../assets/project3.png";
+import pro5 from "../assets/project5.png";
 
 const projectCardData = [
   {
@@ -9,6 +10,13 @@ const projectCardData = [
     text: "Bookshop Management System is a application that helps to keep track of all the book and customer records . command-line-tool console-application terminal-app book-management-system bookshop-management-project. ",
     view: "https://pioneer-managers.netlify.app/ ",
   },
+  {
+    imgsrc: pro5,
+    title: "Ohana Swimwear",
+    text: "Ohana Swimwear brand designs, produces and sells the best all-inclusive swimwear products inspired by African cultures. ",
+    view: "https://ohanafamilywear.com/ ",
+  },
+
 
   
   {
