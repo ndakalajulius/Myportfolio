@@ -5,7 +5,7 @@ const Footer = () => {
   // Define the data for the footer
   const description =
     "I am a software developer I’ve developed numerous web applications. You name it, I’ve clocked an embarrassing number of hours online working on it. I’m confident my adaptability, web developing experience and commitment would make me a perfect fit for the work.Currently, I am a freelancer, I develop web applications. I’m fiercely competitive in my approach, up-to-date on all the lates trends.I’m positive my knack for developing web applications will makeme an immediate asset";
-  const title = "About me";
+  const title = " More about me";
 
   const columns = [
     {
