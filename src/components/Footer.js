@@ -3,7 +3,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div class="footer-content">
-      <div class="footer-logo">
+      <div class="logo">
         <p>
           Software engineering graduate looking for real-world experience in
           this field. Interested in learning more about the development of
